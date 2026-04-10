@@ -1,0 +1,45 @@
+# ── Model Weights ──────────────────────────────────────
+# Pre-trained base model — download from Ultralytics
+yolo11n-cls.pt
+
+# Trained model checkpoints — host on HuggingFace/Drive instead
+runs/
+
+# ── Dataset & Cache ────────────────────────────────────
+# Image datasets — host on Kaggle/Drive/HuggingFace
+train/
+valid/
+test/
+Test2/
+
+# YOLO data caches (auto-regenerated on first run)
+*.cache
+
+# ── Python ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# ── System & IDE ───────────────────────────────────────
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+Thumbs.db
+
+# ── Misc ───────────────────────────────────────────────
+*.log
+*.tmp
